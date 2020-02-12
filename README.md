@@ -1,5 +1,5 @@
 # daDOM
-02-12:  Sacha Sedriks + Penelope Owens pairing
+<b>02-12:  Sacha Sedriks + Penelope Owens pairing</b>
 
 Exercises:
 
