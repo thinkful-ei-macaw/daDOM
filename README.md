@@ -1,4 +1,2 @@
 # daDOM
-02-12:
-
-Sacha + Penelope
+02-12:  Sacha Sedriks + Penelope Owens pairing
