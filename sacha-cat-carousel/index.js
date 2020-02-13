@@ -20,9 +20,15 @@ function thumbnailToggle() {
     // console.log(altSrc);
 
     // replace '.hero' img src and alt with event.currentTarget
-    $('.hero img').attr('src', imgSrc);
-    $('.hero img').attr('alt', altSrc);
-
+    // DONE 3 WAYS
+    // v3
+    // $('.hero img').attr({'src': imgSrc, 'alt': altSrc});
+    // v2
+    $('.hero img').attr('src', imgSrc).attr('alt', altSrc);
+    // v1
+    // $('.hero img').attr('src', imgSrc);
+    // $('.hero img').attr('alt', altSrc);
+    
     // To test keyboard interactivity, you can Tab to one of the thumbnails and press the Enter key.
     // ... so didn't have to write any code for this as this functionality appears to be automatically inherent in the HTML, but I don't know why?
   });
