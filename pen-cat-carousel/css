@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-width: 50px;
+  padding: 30px;
+}
+
+.cat3 {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.cat3 img {
+  height: 10%
+}
+
+
+.thumbnail {
+  display: inline-block;
+  cursor: pointer;
+  height: 20px;
+}
+
+a.thumbnail:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.thumbnail img {
+  max-height: 10%;
+}
